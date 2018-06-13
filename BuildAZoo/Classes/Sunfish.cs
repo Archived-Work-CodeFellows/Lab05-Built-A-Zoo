@@ -1,17 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using BuildAZoo.Interfaces;
 
 namespace BuildAZoo.Classes
 {
-    public class Sunfish : Fish
+    public class Sunfish : Fish, IVenomous
     {
         public override int Legs { get; set; } = 0;
         public bool Fins { get; set; } = true;
+        public bool Venomous { get; set; }
 
         public override string Diet()
         {
             return "some little kelpy things";
+        }
+
+        public string HowDeadly(int scale)
+        {
+            throw new NotImplementedException();
         }
 
         public override string Sound()
