@@ -5,7 +5,7 @@ using BuildAZoo.Interfaces;
 
 namespace BuildAZoo.Classes
 {
-    class Tiger : Feline, IEatPeople
+    public class Tiger : Feline, IEatPeople
     {
         public override int Size { get; set; }
         public override int Legs { get; set; }
@@ -16,12 +16,6 @@ namespace BuildAZoo.Classes
         {
             return false;
         }
-
-        public override string Diet()
-        {
-            return "Carnovoire";
-        }
-
         public string EatingPeople()
         {
             return "sometimes things get complicated";

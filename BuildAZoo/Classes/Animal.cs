@@ -11,7 +11,7 @@ namespace BuildAZoo.Classes
 
         public virtual string Diet()
         {
-            return "dietary needs";
+            return "food";
         }
 
         public abstract string Sound();

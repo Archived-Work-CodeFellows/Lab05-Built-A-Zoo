@@ -49,7 +49,7 @@ public abstract class Feline : Mammal
     public abstract bool Affection();
 }
 //--Third and Final Layer, making this class concrete
-class HouseCat : Feline
+public class HouseCat : Feline
 {
     public override int Size { get; set; }
     public override int Legs { get; set; }
@@ -116,7 +116,7 @@ public abstract Class Animal
 }
 //--- HouseCat changed the return string for Diet
 // as well as changed eyes from a bool to int
-class HouseCat : Animal
+public class HouseCat : Animal
 {
     public override int Eyes {get; set;} = 1;
     public override int Size { get; set; }
@@ -134,7 +134,7 @@ class HouseCat : Animal
     }
 }
 //-- Doggo has also changed the diet and sound methods
-class Doggo : Animal
+public class Doggo : Animal
 {
     public override bool Eyes {get; set; } = true;
     public override int Size { get; set; }
@@ -165,7 +165,7 @@ Two important ones to keep in mind -
 
 * example
 ```c#
-class Doggo : Animal
+public class Doggo : Animal
 {
     //Public means it can be accessed outside of the class
     public override bool Eyes {get; set; } = true;
@@ -195,7 +195,7 @@ This is useful since C# doesn't allow for multiple inheritance. For this Zoo I h
 * example
 ```c#
 //This Tiger Class inherits from Feline and implements IEatPeople
-class Tiger : Feline, IEatPeople
+public class Tiger : Feline, IEatPeople
     {
         public override int Size { get; set; }
         public override int Legs { get; set; }

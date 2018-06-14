@@ -1,8 +1,10 @@
 ﻿using System;
+using BuildAZoo.Classes;
+using BuildAZoo.Interfaces;
 
 namespace BuildAZoo
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
