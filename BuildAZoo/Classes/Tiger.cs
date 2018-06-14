@@ -7,9 +7,8 @@ namespace BuildAZoo.Classes
 {
     public class Tiger : Feline, IEatPeople
     {
-        public override int Size { get; set; }
-        public override int Legs { get; set; }
-        public string FurColor { get; set; }
+        public override int Size { get; set; } = 20;
+        public override int Legs { get; set; } = 4;
         public bool EatPeople { get; set; } = true;
 
         public override bool Affection()

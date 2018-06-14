@@ -18,7 +18,7 @@ namespace BuildAZoo.Classes
 
         public string HowDeadly(int scale)
         {
-            throw new NotImplementedException();
+            return "I'm so scary!";
         }
 
         public override string Sound()

@@ -7,7 +7,7 @@ namespace BuildAZoo.Classes
     public abstract class Feline : Mammal
     {
         public abstract int Size { get; set; }
-        public override bool Fur { get; set; } = true;
+        public virtual string FurColor { get; set; } = "Orange&Black";
         public override bool Eyes { get; set; } = true;
 
         public abstract bool Affection();
