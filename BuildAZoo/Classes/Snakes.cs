@@ -6,6 +6,11 @@ using BuildAZoo.Interfaces;
 
 namespace BuildAZoo.Classes
 {
+    /// <summary>
+    /// This takes the base class Reptile and derives a Snakes class. It will inherit everything
+    /// from Reptile and before, it also implements the IEatPeople and IVenomous interfaces. It defines all
+    /// abstract properties and either overrides or leaves virtual properties as is.
+    /// </summary>
     public class Snakes : Reptile, IEatPeople, IVenomous
     {
         public override bool Scales { get; set; } = true;

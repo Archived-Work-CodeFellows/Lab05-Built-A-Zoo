@@ -4,6 +4,9 @@ using System.Text;
 
 namespace BuildAZoo.Classes
 {
+    /// <summary>
+    /// This is the start of Class layout
+    /// </summary>
     public abstract class Animal
     {
         public virtual bool Eyes { get; set; }

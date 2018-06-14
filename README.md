@@ -4,7 +4,7 @@ This project is practice in the fundamental Object-Oriented Programming(OOP) pri
 
 
 ## Visual
-here
+![Zoo Class Flowchart](zoo-class-flowchart.PNG)
 ***
 
 There are four fundamental OOP principals that we follow:
@@ -173,7 +173,7 @@ public class Doggo : Animal
     public override int Legs { get; set; }
     private string FurColor { get; set; } //methods and properties
                                           //default
-                                          //to private but using the keyword is
+                                          //to private but using the keyword
                                           //helps with visability 
 
     public override string Diet()
@@ -260,6 +260,3 @@ public class Snakes : Reptile, IEatPeople, IVenomous
         }
     }
 ```
-## Updated Visual with Interfaces
-here
-
