@@ -5,7 +5,7 @@ using BuildAZoo.Interfaces;
 
 namespace BuildAZoo.Classes
 {
-    class HouseCat : Feline, IEatPeople
+    public class HouseCat : Feline, IEatPeople
     {
         public override int Size { get; set; }
         public override int Legs { get; set; }
