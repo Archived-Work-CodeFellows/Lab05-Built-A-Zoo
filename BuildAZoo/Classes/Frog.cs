@@ -5,6 +5,11 @@ using BuildAZoo.Interfaces;
 
 namespace BuildAZoo.Classes
 {
+    /// <summary>
+    /// This takes the base class Aquatic and derives a Frog class. It will inherit everything
+    /// from Aquatic and before, it also implements theIVenomous interface. It defines all
+    /// abstract properties and either overrides or leaves virtual properties as is.
+    /// </summary>
     public class Frog : Aquatic, IVenomous
     {
         public override bool Eyes { get; set; } = true;

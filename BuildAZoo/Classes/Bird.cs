@@ -4,6 +4,11 @@ using System.Text;
 
 namespace BuildAZoo.Classes
 {
+    /// <summary>
+    /// This takes the base class Reptile and derives a Bird class. It will inherit everything
+    /// from Reptile and before. It defines all abstract properties and either overrides or 
+    /// leaves virtual properties as is.
+    /// </summary>
     public class Bird : Reptile
     {
         public override bool Eyes { get; set; } = false;

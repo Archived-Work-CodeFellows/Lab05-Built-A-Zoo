@@ -5,6 +5,11 @@ using BuildAZoo.Interfaces;
 
 namespace BuildAZoo.Classes
 {
+    /// <summary>
+    /// This takes the base class Feline and derives a Tiger. It will inherit everything
+    /// from Feline and before, it also implements the IEatPeople interface. It defines all
+    /// abstract properties and either overrides or leaves virtual properties as is.
+    /// </summary>
     public class Tiger : Feline, IEatPeople
     {
         public override int Size { get; set; } = 20;

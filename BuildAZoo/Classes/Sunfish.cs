@@ -5,6 +5,11 @@ using BuildAZoo.Interfaces;
 
 namespace BuildAZoo.Classes
 {
+    /// <summary>
+    /// This takes the base class Fish and derives a Sunfish class. It will inherit everything
+    /// from Fish and before, it also implements the IVenomous interface. It defines all
+    /// abstract properties and either overrides or leaves virtual properties as is.
+    /// </summary>
     public class Sunfish : Fish, IVenomous
     {
         public override int Legs { get; set; } = 0;

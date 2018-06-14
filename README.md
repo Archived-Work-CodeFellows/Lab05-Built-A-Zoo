@@ -173,7 +173,7 @@ public class Doggo : Animal
     public override int Legs { get; set; }
     private string FurColor { get; set; } //methods and properties
                                           //default
-                                          //to private but using the keyword is
+                                          //to private but using the keyword
                                           //helps with visability 
 
     public override string Diet()
